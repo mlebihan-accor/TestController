@@ -6,16 +6,17 @@
 //
 
 import Foundation
+import UIKit
 
-
-class Controller {
+class Controller: UIControl {
 
   // IBAction
 
-  @IBAction func didSelect() {
-    print("<<<<<< didSelect")
+  @IBAction func didSelectBonjourButton() {
+    print("<<<<<< didSelect Bonjour !")
   }
 
-  // textfield
-
+  @objc func didSelectAddedButton() {
+    print("<<<<<< didSelect code button")
+  }
 }
